@@ -1,0 +1,32 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+.text {
+  @include base-styles(green);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text2 {
+  @include base-styles(orange);
+
+  font-family: fantasy;
+}
+
+.text3 {
+  @include base-styles(aqua, null, border, 1px solid black);
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  font-style: oblique;
+  color: teal;
+}
+
+.header2 {
+  @extend .header;
+  background-color: gray;
+}

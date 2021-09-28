@@ -1,0 +1,17 @@
+@mixin base-styles(
+  $color: pink,
+  $backgroundColor: transparent,
+  $property: null,
+  $value: null
+) {
+  @if ($backgroundColor != transparent) {
+    background-color: $backgroundColor;
+  }
+  @if ($property != null) {
+    #{$property}: $value;
+  }
+  font-size: $lorem-font-size;
+  padding: 3rem;
+  margin-bottom: 2px;
+  color: $color;
+}

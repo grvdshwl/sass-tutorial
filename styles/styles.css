@@ -1,0 +1,41 @@
+.text {
+  font-size: 1.5rem;
+  padding: 3rem;
+  margin-bottom: 2px;
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text2 {
+  font-size: 1.5rem;
+  padding: 3rem;
+  margin-bottom: 2px;
+  color: orange;
+  font-family: fantasy;
+}
+
+.text3 {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding: 3rem;
+  margin-bottom: 2px;
+  color: aqua;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header, .header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: capitalize;
+  font-style: oblique;
+  color: teal;
+}
+
+.header2 {
+  background-color: gray;
+}
+/*# sourceMappingURL=styles.css.map */
